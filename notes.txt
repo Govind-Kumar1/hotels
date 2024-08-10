@@ -1,0 +1,30 @@
+client site ----> frontend
+serverSide ----> backend 
+JSON--> Javascript object notation  (JSON) is organized formate for exchanging data between computers or web 
+applications
+JSON is lightweight
+int most contexts , JSON is represented as a string 
+
+eg--->
+------------------------------------------------------------------------------------------------------------
+  const jsonString = {
+    "name":"Alice:,
+    "age":24,
+    "hobbies":["reading","painting","hiking"]
+}
+
+const jsonObject = JSON.parse(jsonString); // convert JSON string to object 
+
+ ------------------------------------------------------------------------------------------------------------
+
+const objectToConvert = {name: "Alice",age:12};
+cont jsonStringfied = JSON.stringify(objectToConvert); // convert object to JSON string 
+
+..Create a server
+
+. Creating a server in NodeJs via express package
+
+"localhost" referes to your own computer . 
+
+Port Number --> ??
+
